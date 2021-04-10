@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'me.conclure.neptun'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT'
+}
+
+test {
+    useJUnitPlatform()
+}

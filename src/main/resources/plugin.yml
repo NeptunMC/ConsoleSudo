@@ -1,0 +1,11 @@
+main: me.conclure.consolesudo.ConsoleSudoPlugin
+version: 1.0
+name: ConsoleSudo
+commands:
+  consolesudo:
+    aliases:
+      - cs
+      - csudo
+permissions:
+  consolesudo.use:
+    default: false
